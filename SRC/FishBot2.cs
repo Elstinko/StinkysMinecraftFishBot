@@ -1,26 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
-using System.Windows.Input;
-using NAudio;
 using NAudio.CoreAudioApi;
 
-namespace TheFishBot
+namespace FishBot2
 {
     public partial class FishBotForm1 : Form
     {
-        static public int fished = 0;
-        static public Thread botThread;
-        static public bool active = false;
+        int fished = 0;
+        int peak = 0;
+        double temp = 0;
+        double reCastTime = 2;
+        Thread botThread;
+        bool active = false;
 
         public FishBotForm1()
         {
@@ -41,7 +35,7 @@ namespace TheFishBot
             VirtualMouse.RightClick();
 
 
-            System.Threading.Thread.Sleep(1700);
+            System.Threading.Thread.Sleep(2000);
             while (active)
             {
                 var device = (MMDevice)GetControlPropertyThreadSafe(processList, t => t.SelectedItem);
@@ -53,8 +47,9 @@ namespace TheFishBot
                 }
             }
 
+            System.Threading.Thread.Sleep(Convert.ToInt32(reCastTime * 1000));
+            //Console.WriteLine(Convert.ToInt32(reCastTime * 1000));
             fished = fished + 1;
-            System.Threading.Thread.Sleep(900);
 
         }
 
@@ -101,6 +96,29 @@ namespace TheFishBot
             catch { };
         }
 
+        private void resetBarButton_Click(object sender, EventArgs e)
+        {
+            peak = 0;
+            peakIndicator.Value = peak;
+
+        }
+
+        private void setRecast_Click(object sender, EventArgs e)
+        {
+            if (reCastTimeInput.TextLength > 0 && double.TryParse(reCastTimeInput.Text, out temp))
+            {
+                reCastTime = Convert.ToDouble(reCastTimeInput.Text);
+            }
+            else
+            {
+                MessageBox.Show("Please Enter a valid number.","Bad Input",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+        }
+        private void resetTotal_Click(object sender, EventArgs e)
+        {
+            fished = 0;
+        }
+
         private void Timer_Tick_1(object sender, EventArgs e)
         {
             casts.Text = fished.ToString();
@@ -117,7 +135,14 @@ namespace TheFishBot
                 var device = (MMDevice)processList.SelectedItem;
                 var volume = (int)(device.AudioMeterInformation.MasterPeakValue * 1000);
 
+                if (volume > peak)
+                {
+                    peak = volume;
+                    peakIndicator.Value = peak;
+                }
+
                 audioVisualizer.Value = volume;
+
 
 
             }

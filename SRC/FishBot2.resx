@@ -1,64 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
+﻿<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -117,4 +57,81 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AADoogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIB/+ei
+        Av/mogP/5aEE/+WhBP/loQT/5aEE/+WhBP/mogP/5qIC/+iiAf/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/5qID/+Wh
+        BP/oogH/7qMA//OkAP/1pAD/9qUA//alAP/2pQD/9aQA//OkAP/vowD/6aIA/+WhBP/mogP/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+eiAf/mogP/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/5qID/+ai
+        Av/ypAD/9qQA/+eiBP/NnSP/sZhJ/5uUZv+PknX/jpJ2/46Sdv+alGf/sJhL/8udJv/logX/9qQA//Ok
+        AP/oogH/5qIC/+iiAP/oogD/6KIA/+iiAP/nogH/66MD//OkAP/moQP/56IC/+iiAP/oogD/6KIA/+Wh
+        A//xowD/76MA/7uaOf94jpT/RITZ/yl/+/8eff//Gn3//xl8//8ZfP//GXz//xp9//8dff//In7//zqD
+        5v9sjKT/r5hL/+aiBv/towD/5KEE/+iiAP/oogD/7KMA/9qfE/9WiMH/sJhJ//akAP/towH/5KED/+ii
+        Af/mogP/9aQA/8KbM/9WiMH/IH7//xl9/v8hfv//Jn///yl//f8qgPv/KoD7/yqA+/8qgPv/KYD8/yyA
+        +P8+g+H/OYLo/zGB8f81gu3/ZYqs/86dJ//4pQD/5qID/+iiAP/sowD/2Z8T/yl/8f8cff//a4un/9We
+        HP/3pQD/5qIE//KkAP+ZlGv/In79/xx9//8pf/3/KoD7/yh//f8nf///J3///yd///8nf///J3///yh/
+        /v8lf///MIHz/3yOj/+Bj4j/go+H/4GPiP92jZb/dY2Z/5iTav/uowD/6KIB/+yjAP/ZnxT/NIHu/yZ/
+        //8bff//L4Dx/5GSc//0pAD/qJZa/xd8//8nf/z/Kn/7/yd///8nf///J3///yd///8nf///J3///yd/
+        //8nf///J3///yd///8mf///HX3//x19//8dff//HX3//yB+//8ffv3/Env//5WTcf/1pAD/7KMA/9mf
+        FP8xgfH/JH7//yuA+/8lf/3/F3z//1KHx/85gt//In7//yl//f8nf///J3///yd///8nf///J3///yd/
+        //8nf///J3///yd///8nf///J3///yd///8pf/z/KX/8/yp/+/8qf/v/KX79/yyA+P8kf///MYHq/9af
+        Gf/sowD/2Z8U/zGB8f8kfv//KH/+/yh//v8qgPz/IH7//yV//f8of/7/J3///yd///8nf///J3///yd/
+        //8nf///J3///yd///8nf///J3///yd///8nf///J3///yd///8of///I37//yGB/v8mhPz/H37//yp/
+        /f8gfv//qpdP/+yjAP/ZnxT/MYHx/yR+//8of/7/J3///yqA+/8jfv7/JH/+/yh//v8nf///J3///yd/
+        //8nf///J3///yd///8nf///J3///yd///8nf///J3///yd///8nf///KH/+/yR+//81hOn/q4dV/8WB
+        N/9aibr/IX7//yN+//+tl0v/7KMA/9mfFP8xgfH/JH7//yp//P8of/z/F3z//0KE2v88g93/IX7//yp/
+        /P8nf///J3///yd///8nf///J3///yd///8nf///J3///yd///8nf///J3///yd///8qf/v/GX3//4iN
+        gv/iUiL/0j45/8SCPP8gg///OIHh/92gEP/sowD/2Z8U/zKB8P8of///IH7+/yB+//9zjZv/56IF/7qa
+        RP8eff//I37+/yuA+/8nf/7/J3///yd///8nf///J3///yd///8nf///J3///yd///8nf///J3///yp/
+        +/8aff//eY2T/+VeGP/iSyP/soZK/xN///+nlVr/9aQA/+yjAP/anxP/MIDw/xZ8//9IhdP/upo8//al
+        AP/pogT/8qQA/6+YTv8ugPH/GXz//yZ//f8qgPv/KX/8/yh//v8nf///J3///yd///8nf///J3///yd/
+        //8nf///KH/9/yh//v8rgvb/hYuE/5SJcv9Aht3/mpNp//SkAP/mogP/7aMA/9mfFP83gun/hpCB/+qi
+        BP/ypAD/5aEE/+eiAf/mogP/86QA/9WeHP9ujKD/KoD5/xl8//8dff7/I37//yd///8pf/z/Kn/8/yp/
+        /P8qf/z/KX/8/yd///8kfv//Hn3//xh8/v8afv//V4q//8abLv/2pAD/5qID/+iiAP/pogD/5KEF/9Wf
+        Gv/1pAD/6aIC/+WiA//oogD/6KIA/+iiAP/logP/7aMB//SkAP/PniD/kJJ0/1qIvP83gur/Jn/+/x59
+        //8bff//G33//xt9//8eff//JH///zWB7v9Uh8P/i5F8/8ydJP/2pAD/8KMB/+WiA//oogD/6KIA/+ii
+        AP/pogD/7aMA/+WhA//nogH/6KIA/+iiAP/oogD/6KIA/+iiAP/nogL/5aED/+6jAP/2pQD/8aQA/92g
+        Df/HnCz/s5hG/6eWVv+nllb/p5ZW/7GYSP/Emy//26AQ/++jAP/2pQD/76MA/+aiA//mogL/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/nogL/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/56IC/+Wh
+        BP/mogL/66IA/++jAP/zpAD/9KQA//SkAP/0pAD/86QA//CjAP/rowD/56IC/+WhBP/mogL/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/nogH/5qIC/+aiA//loQT/5aEE/+WhBP/mogP/5qIC/+eiAf/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
 </root>
